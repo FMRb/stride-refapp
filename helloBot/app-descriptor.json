@@ -1,0 +1,20 @@
+{
+  "baseUrl": "${host}",
+  "key": "helloBot",
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "modules": {
+    "chat:bot": [
+      {
+        "key": "hello-bot",
+        "mention": {
+          "url": "/bot-mention"
+        }
+      }
+    ]
+
+  }
+}
+
